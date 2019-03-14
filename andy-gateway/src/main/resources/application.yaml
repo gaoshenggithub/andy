@@ -1,0 +1,27 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: andy-gateway
+eureka:
+  client:
+    service-url:
+     defaultZone: http://localhost:8002/eureka
+#添加路由前缀(网关)
+zuul:
+  prefix: /com/gateway
+
+# 熔断超时时长：5000ms
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 5000
+ribbon:
+  ConnectTimeout: 1000 # 连接超时时间(ms)
+  ReadTimeout: 3500 # 通信超时时间(ms)
+  MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
+  MaxAutoRetries: 0 # 同一实例的重试次数
+

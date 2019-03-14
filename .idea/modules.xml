@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/andy.iml" filepath="$PROJECT_DIR$/andy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andy-business/andy-business.iml" filepath="$PROJECT_DIR$/andy-business/andy-business.iml" group="andy-business and modules" />
+      <module fileurl="file://$PROJECT_DIR$/andy-business/andy-business-interface/andy-business-interface.iml" filepath="$PROJECT_DIR$/andy-business/andy-business-interface/andy-business-interface.iml" group="andy-business and modules" />
+      <module fileurl="file://$PROJECT_DIR$/andy-business/andy-business-service/andy-business-service.iml" filepath="$PROJECT_DIR$/andy-business/andy-business-service/andy-business-service.iml" group="andy-business and modules" />
+      <module fileurl="file://$PROJECT_DIR$/andy-common/andy-common.iml" filepath="$PROJECT_DIR$/andy-common/andy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andy-gateway/andy-gateway.iml" filepath="$PROJECT_DIR$/andy-gateway/andy-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/andy-registry/andy-registry.iml" filepath="$PROJECT_DIR$/andy-registry/andy-registry.iml" />
+    </modules>
+  </component>
+</project>
