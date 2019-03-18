@@ -2,13 +2,36 @@ server:
   port: 8004
 spring:
   application:
-    name: business-service
+    name: business-service #应用名
   datasource:
     url: jdbc:mysql://localhost:3306/test
     username: root
     password: 123456
-    type: com.alibaba.druid.pool.DruidDataSource
+   #使用SpringBoot默认的HikariCP连接池
+   # type: com.alibaba.druid.pool.DruidDataSource
 eureka:
   client:
     service-url:
-     defaultZone: http://localhost:8001/eureka
+    #单个服务(注册中心)
+     defaultZone: http://localhost:7001/eureka/
+  instance:
+   instance-id: ${spring.application.name}:8004
+   prefer-ip-address: true
+logging:
+  level:
+   com.andy: debug
+#mybatis配置
+#mybatis配置文件
+mybatis:
+  config-location: classpath:mybatis/mybatis.xml        # mybatis配置文件所在路径
+  type-aliases-package: com.andy.business.model    # 所有Entity别名类所在包
+  mapper-locations:
+     - classpath:mybatis/mapper/**/*.xml   # mapper映射文件
+
+
+info:
+  app.name: andy
+  company.name: GD
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+

@@ -11,6 +11,7 @@
         <module name="andy-common" />
         <module name="andy-gateway" />
         <module name="andy-registry" />
+        <module name="leyou-authentication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="andy-common" target="1.8" />
       <module name="andy-gateway" target="1.8" />
       <module name="andy-registry" target="1.8" />
+      <module name="leyou-authentication" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

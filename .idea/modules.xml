@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/andy-common/andy-common.iml" filepath="$PROJECT_DIR$/andy-common/andy-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/andy-gateway/andy-gateway.iml" filepath="$PROJECT_DIR$/andy-gateway/andy-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/andy-registry/andy-registry.iml" filepath="$PROJECT_DIR$/andy-registry/andy-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leyou-authentication/leyou-authentication.iml" filepath="$PROJECT_DIR$/leyou-authentication/leyou-authentication.iml" />
     </modules>
   </component>
 </project>
